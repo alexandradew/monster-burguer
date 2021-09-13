@@ -14,6 +14,10 @@ export const OrderStyled = styled.div`
 	font-weight: bold;
 	justify-content: space-around;
 
+	@media(max-width: 600px) {
+		font-size: 1.1rem;
+	}
+
 	p{
 		text-align: center;
 	}
@@ -31,8 +35,7 @@ export const OrderStyled = styled.div`
 		width: 100%;
 	}
 
-	ul {
-		
+	ul {		
 		@media(max-width: 1000px) {
 			padding-left: 15px;
 			padding-right: 15px;
@@ -65,6 +68,14 @@ export const OrderStyled = styled.div`
 			border:none;
 			font-size:1.5rem;
 			text-align: center;
+
+			@media(max-width: 600px) {
+				font-size: 1.1rem;
+				margin-right: 0px;
+				margin-left: 0px;
+			}
+
+
 		}
 
 		button{
@@ -74,6 +85,14 @@ export const OrderStyled = styled.div`
 			font-weight: bold;
 			font-size:1.5rem;
 			cursor: pointer;
+			color:#FFF;
+			background-color: #1D1D1F;
+
+			@media(max-width: 600px) {
+				font-size: 1.1rem;
+			}
+
+
 		}
 
 		background-color: #C4BFAE;
