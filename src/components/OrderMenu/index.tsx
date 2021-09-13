@@ -17,7 +17,7 @@ export default function OrderMenu() {
 
 	useEffect(() => {
 		handleShowMenu();
-	}, [total])
+	})
 
 
 	function handleShowMenu(){
